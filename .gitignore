@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and virtual environments
+.venv/
+venv/
+ENV/
+env/
+.yolo/
+*.cache
+
+# Uploads and temporary generated results
+static/uploads/*
+!static/uploads/.gitkeep
+static/results/*
+!static/results/.gitkeep
+reports/generated_reports/*
+!reports/generated_reports/.gitkeep
+
+# Ultralytics runs directory (checkpoints/plots)
+models/runs/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+
+# VS Code
+.vscode/

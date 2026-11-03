@@ -1,0 +1,13 @@
+# IntelliInspect - Industrial Defect Dataset Configuration (NEU-DET Benchmark)
+path: C:/Users/bhumi/.gemini/antigravity/scratch/IntelliInspect/dataset
+train: images/train
+val: images/val
+
+# 6 Industrial Surface Defect Classes
+names:
+  0: crazing
+  1: inclusion
+  2: patches
+  3: pitted_surface
+  4: rolled-in_scale
+  5: scratches
